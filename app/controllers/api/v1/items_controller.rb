@@ -1,7 +1,14 @@
 class Api::V1::ItemsController < ApplicationController
   def show
-    items = Item.page(params[:page]).per(100)
-    render json: { resources: items }
+    items = Item.page(params[:page]).per(10)
+    render json: {
+      resources: items,
+      pager: {
+        page: params[:page] || 1,
+        per_page: 10,
+        count: Item.count
+      }
+    }
   end
 
   def create
