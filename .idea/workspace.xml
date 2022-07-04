@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 创建user model">
-      <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 初建路由">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="HTTP 请求.rest-api#1">
     <configuration name="http-requests-log#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" runType="运行单个请求">
@@ -165,7 +166,6 @@
       <list>
         <item itemvalue="HTTP 请求.rest-api#1" />
         <item itemvalue="HTTP 请求.http-requests-log#1" />
-        <item itemvalue="Ruby.users_controller" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652076909643</updated>
-      <workItem from="1652076911742" duration="5726000" />
+      <workItem from="1652076911742" duration="6910000" />
+      <workItem from="1652847394041" duration="11000" />
+      <workItem from="1653794588529" duration="32000" />
+      <workItem from="1654329286638" duration="30000" />
+      <workItem from="1655038346985" duration="28000" />
+      <workItem from="1655798911102" duration="11000" />
+      <workItem from="1656590249235" duration="32000" />
+      <workItem from="1656731639975" duration="5000" />
+      <workItem from="1656898457604" duration="3033000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 创建user model">
       <created>1652077851045</created>
@@ -194,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652077866202</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 初建路由">
+      <created>1652086315166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652086315166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,12 +225,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 创建user model" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 创建user model" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mangosteen_1@users_controller.rcov" NAME="users_controller 覆盖结果" MODIFIED="1652078204111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="mangosteen-1" />
+    <MESSAGE value="feat: 初建路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 初建路由" />
   </component>
 </project>
