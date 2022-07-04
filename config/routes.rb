@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  post '/validation_codes', to: 'validationCode#create'
+  get 'validation_codes/create'
 
   namespace :api do
     namespace :v1 do

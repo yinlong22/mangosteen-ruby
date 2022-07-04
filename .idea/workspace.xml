@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 初建路由">
+    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 创建路由">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +33,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers/api/v1" />
+    </key>
   </component>
   <component name="RunManager" selected="HTTP 请求.rest-api#1">
     <configuration name="http-requests-log#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" runType="运行单个请求">
@@ -186,7 +190,7 @@
       <workItem from="1655798911102" duration="11000" />
       <workItem from="1656590249235" duration="32000" />
       <workItem from="1656731639975" duration="5000" />
-      <workItem from="1656898457604" duration="3033000" />
+      <workItem from="1656898457604" duration="5086000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 创建user model">
       <created>1652077851045</created>
@@ -209,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652086315166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 创建路由">
+      <created>1656906762763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656906762763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +241,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 创建user model" />
     <MESSAGE value="feat: 初建路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 初建路由" />
+    <MESSAGE value="feat: 创建路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 创建路由" />
   </component>
 </project>
