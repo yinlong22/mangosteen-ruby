@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 分页">
-      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 安装rspec">
+      <change afterPath="$PROJECT_DIR$/spec/requests/items_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +193,8 @@
       <workItem from="1656590249235" duration="32000" />
       <workItem from="1656731639975" duration="5000" />
       <workItem from="1656898457604" duration="11157000" />
-      <workItem from="1656931348466" duration="7731000" />
+      <workItem from="1656931348466" duration="11983000" />
+      <workItem from="1656989564839" duration="893000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 创建user model">
       <created>1652077851045</created>
@@ -248,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656930752535</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: 安装rspec">
+      <created>1656941447642</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656941447642</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +277,7 @@
     <MESSAGE value="feat: 创建validation controller" />
     <MESSAGE value="feat: git init" />
     <MESSAGE value="feat: 分页" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 分页" />
+    <MESSAGE value="feat: 安装rspec" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 安装rspec" />
   </component>
 </project>
