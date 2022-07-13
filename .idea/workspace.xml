@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 添加items controller的测试">
-      <change afterPath="$PROJECT_DIR$/spec/requests/validation_codes_spec.rb" afterDir="false" />
+    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 添加validationCodes controller的测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/validation_codes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/validation_codes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/validation_code.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/validation_code.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +192,8 @@
       <workItem from="1656731639975" duration="5000" />
       <workItem from="1656898457604" duration="11157000" />
       <workItem from="1656931348466" duration="11983000" />
-      <workItem from="1656989564839" duration="2703000" />
+      <workItem from="1656989564839" duration="3611000" />
+      <workItem from="1657502292908" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 创建user model">
       <created>1652077851045</created>
@@ -260,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656992074238</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: 添加validationCodes controller的测试">
+      <created>1656993892915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656993892915</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +292,7 @@
     <MESSAGE value="feat: 分页" />
     <MESSAGE value="feat: 安装rspec" />
     <MESSAGE value="feat: 添加items controller的测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加items controller的测试" />
+    <MESSAGE value="feat: 添加validationCodes controller的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加validationCodes controller的测试" />
   </component>
 </project>
