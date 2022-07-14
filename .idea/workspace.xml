@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 创建pro的密钥">
+    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 加入参数">
+      <change afterPath="$PROJECT_DIR$/bin/pack_for_remote.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/setup_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/setup_host.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup_host.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/host.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/config/host.Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657707140481</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: 加入参数">
+      <created>1657708221922</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657708221922</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +329,7 @@
     <MESSAGE value="feat: 添加默认路由" />
     <MESSAGE value="feat: 创建新的密钥" />
     <MESSAGE value="feat: 创建pro的密钥" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 创建pro的密钥" />
+    <MESSAGE value="feat: 加入参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 加入参数" />
   </component>
 </project>
