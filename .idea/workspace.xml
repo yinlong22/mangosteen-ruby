@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 部署">
-      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/mes_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/tags_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/tag.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/user_mailer/welcome_email.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/会话/登录.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/标签/修改标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/标签/创建标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/标签/删除标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/标签/获取标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/标签/获取标签列表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/账目/创建账目.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/账目/统计信息（按happen_at分组）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/账目/统计信息（按tag_id分组）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/账目/获取账目.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/api/验证码/请求发送验证码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/acceptance/items_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/acceptance/sessions_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/acceptance/tags_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/acceptance/validation_codes_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/mailers/previews/user_preview.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/items_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/me_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/sessions_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/tags_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/validation_codes_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/rspec_api_documentation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/validation_codes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/validation_codes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/item.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/validation_code.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/validation_code.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pack_for_host.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pack_for_host.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pack_for_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pack_for_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/setup_host.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup_host.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/setup_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/home_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/items_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/validation_codes_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
-    </list>
+    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 部署" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
