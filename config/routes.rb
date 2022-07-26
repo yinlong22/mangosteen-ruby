@@ -1,14 +1,20 @@
+require 'action_dispatch/middleware/static'
 Rails.application.routes.draw do
-  get 'validation_codes/create'
   get '/', to: 'home#index'
 
   namespace :api do
     namespace :v1 do
-      resource :validation_codes, only: [:create]
-      resource :session, only: [:create,:destroy]
+      resources :validation_codes, only: [:create]
+      resource :session, only: [:create, :destroy]
       resource :me, only: [:show]
-      resource :items
-      resource :tags
+      resources :items do
+        collection do
+          get :balance
+          get :summary
+        end
+      end
+      resources :tags
     end
   end
+
 end
