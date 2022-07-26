@@ -1,13 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 加入参数">
-      <change afterPath="$PROJECT_DIR$/bin/pack_for_remote.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a2a03d71-4341-4121-b444-d2d4a4832f08" name="默认变更列表" comment="feat: 部署">
+      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/mes_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/tags_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/tag.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/user_mailer/welcome_email.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/会话/登录.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/标签/修改标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/标签/创建标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/标签/删除标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/标签/获取标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/标签/获取标签列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/账目/创建账目.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/账目/统计信息（按happen_at分组）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/账目/统计信息（按tag_id分组）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/账目/获取账目.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/api/验证码/请求发送验证码.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/acceptance/items_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/acceptance/sessions_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/acceptance/tags_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/acceptance/validation_codes_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/mailers/previews/user_preview.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/items_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/me_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/sessions_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/tags_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/requests/api/v1/validation_codes_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/rspec_api_documentation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/host.Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/config/host.Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/items_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/validation_codes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/validation_codes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/item.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/validation_code.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/validation_code.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pack_for_host.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pack_for_host.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pack_for_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pack_for_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/setup_host.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup_host.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/setup_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/credentials.yml.enc" beforeDir="false" afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/home_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/items_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/validation_codes_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +80,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/doc" />
+      <recent name="$PROJECT_DIR$/config/environments" />
+      <recent name="$PROJECT_DIR$/app/models" />
+      <recent name="$PROJECT_DIR$/app/mailers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/controllers/api/v1" />
     </key>
@@ -199,6 +252,11 @@
       <workItem from="1656931348466" duration="11983000" />
       <workItem from="1656989564839" duration="3611000" />
       <workItem from="1657502292908" duration="14000" />
+      <workItem from="1657795527307" duration="430000" />
+      <workItem from="1657795972732" duration="1599000" />
+      <workItem from="1657865219900" duration="6000" />
+      <workItem from="1658837044129" duration="660000" />
+      <workItem from="1658837828432" duration="6102000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 创建user model">
       <created>1652077851045</created>
@@ -298,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657708221922</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: 部署">
+      <created>1657794751848</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657794751848</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +395,7 @@
     <MESSAGE value="feat: 创建新的密钥" />
     <MESSAGE value="feat: 创建pro的密钥" />
     <MESSAGE value="feat: 加入参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 加入参数" />
+    <MESSAGE value="feat: 部署" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 部署" />
   </component>
 </project>
